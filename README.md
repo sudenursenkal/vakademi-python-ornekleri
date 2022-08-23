@@ -12,4 +12,4 @@
     2. Sayı Tahmin Oyunu
     3. Fizz Buzz Testi
 
-[Aldığım eğitime ulaşmak için tıklayınız.](https://vakademi.com.tr/home/category/yazilim/sifirdan-pythonda-uzmanlas/sifirdan-pythonda-uzmanlas-tanitim-videosu/)
+[Aldığım eğitime ulaşmak için tıklayınız.](https://vakademi.com.tr/home/category/yazilim/sifirdan-pythonda-uzmanlas/sifirdan-pythonda-uzmanlas-tanitim-videosu/) 
