@@ -24,7 +24,7 @@ print(f"{ad} {soy_ad} adli kullanici {yas} yasindadir.")
 # Örnek Adres: ercan.bozkurt@vakademi.com.tr
 
 # Ad ve soy ad bilgilerini bir onceki adimda almistik
-print(f"{ad.lower()}.{soy_ad.lower()}@vakademi.com.tr")
+print(f"Mail: {ad.lower()}.{soy_ad.lower()}@vakademi.com.tr")
 
 """
 Yukarıdaki gibi yazmayi bilmedigim donemde yazigim kodlar:
@@ -33,3 +33,17 @@ email = ad.lower() +"." +soy_ad.lower() +"@" +domain
 print(email)
 """
 # Yorum satirlarinda da gosterdigim orneklerle farkli yazim sekillerini inceleyebilirisniz
+
+# 3. ADIM
+# Kullanıcıdan alınan ad ve soyad bilgilerinin
+# toplam kaç karakterden oluştuğunu
+# ekranda görüntüleyen programı kodlayınız.
+# Örnek Çıktı: 12
+
+print("Ad ve soy ad bilgisinin uzunlugu: "+len(ad)+len(soy_ad))
+
+"""
+Bir baska yazim sekli:
+length = len(first_name) + len(last_name)
+print(length)
+"""
