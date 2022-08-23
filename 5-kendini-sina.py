@@ -25,3 +25,22 @@ for user in users:
         )
 # Ismin uzunluguna bakip gorunen harf sayisini cikartinca
 # istenen kadar yildiz kullanmis olduk.
+
+# 3. Listede yer alan kişilere birer mail adresi tanımlanacak.
+# Mail adresi adın baş harfi, arada nokta işareti
+# ve soyadın tamamı @firma.com.tr ile birlestirilerek elde ediliyor.
+# mail adresi Türkçe karakter içermemeli
+
+for user in users:
+    user_name = (
+        user[0][0] + "." + user[1] + "@firma.com.tr"
+    ).lower()
+    # replace() metodu ile turkce karakterleri cikartiyoruz
+    user_name = user_name.replace('ı', 'i')
+    user_name = user_name.replace(' ', '.')
+    user_name = user_name.replace('ç', 'c')
+    user_name = user_name.replace('ğ', 'g')
+    user_name = user_name.replace('ü', 'u')
+    user_name = user_name.replace('ş', 's')
+    user_name = user_name.replace('ö', 'o')
+    print(user_name)
