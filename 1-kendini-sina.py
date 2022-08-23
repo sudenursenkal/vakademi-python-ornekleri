@@ -15,3 +15,21 @@ print(f"{ad} {soy_ad} adli kullanici {yas} yasindadir.")
 # print(ad, soy_ad,"adli kisi",yas,"yasindadir.")
 # Bir baska yazim sekli:
 # print(ad + " " + soy_ad + " adlı kişi " + yas + " yaşındadır.")
+
+# 2. ADIM
+# Hepsi küçük harflerle olacak şekilde
+# ad ve soyad bilgilerini kullanarak
+# email adresi oluşturup ekranda görüntüleyen
+# programı kodlayınız.
+# Örnek Adres: ercan.bozkurt@vakademi.com.tr
+
+# Ad ve soy ad bilgilerini bir onceki adimda almistik
+print(f"{ad.lower()}.{soy_ad.lower()}@vakademi.com.tr")
+
+"""
+Yukarıdaki gibi yazmayi bilmedigim donemde yazigim kodlar:
+domain = "hotmail.com"
+email = ad.lower() +"." +soy_ad.lower() +"@" +domain
+print(email)
+"""
+# Yorum satirlarinda da gosterdigim orneklerle farkli yazim sekillerini inceleyebilirisniz
